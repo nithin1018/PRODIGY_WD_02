@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: aliceblue;
+    padding: 25px;
+    width: 450px;
+    border-radius: 15px;
+    text-align: center;
+}
+#stop-watch-duration{
+    font-size: 25px;
+}
+.laps-button{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.laps-button button{
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#reset ,#stop{
+    display: none;
+    background-color: red;
+}
+#laps{
+    height: 200px;
+    padding: 10px;
+    overflow: auto;
+}
+#laps li{
+    font-size: 22px;
+    padding: 10px;
+}
